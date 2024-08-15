@@ -1,0 +1,616 @@
+header, .header-wrapper {
+    width: 100%;
+}
+
+header, .header-wrapper li a {
+    font-size: 25px;
+}
+
+.li-cont{
+
+    font-family: «arial»;
+  
+    font-size: 24px;
+  
+    display: grid;
+  
+    width: 300px;
+  
+}
+  
+   
+  
+  .typed {
+  
+    overflow: hidden;
+  
+    white-space: nowrap;
+  
+    font-weight: 800;
+
+    color: #fff;
+
+    -webkit-text-fill-color: #fff;
+  
+}
+
+.header-drop .dropdown {
+    color: #fff;
+    -webkit-text-fill-color: #fff;
+}
+
+.card-plugin-catalogue .download-btn {
+    -webkit-text-fill-color: #fff;
+}
+
+.dropdown-toggle, .footer-nav-items a {
+    color: #fff;
+    -webkit-text-fill-color: #fff!important;
+}
+  
+.dropdown-menu {
+    background-color: #5c77f2;
+    border-radius: 5px;
+}
+
+.plugin-information {
+    transition: all 0.5s;
+
+    &:hover {
+        transform: scale(101%);
+    }
+}
+
+.main-plugin-sect {
+    background: white;
+}
+
+.catalogue-sect {
+    background: white;
+}
+
+.site-navigation {
+    padding-top: 50px;
+    color: #9b9b9b;
+    -webkit-text-fill-color: #9b9b9b;
+    font-size: 20px;
+}
+
+.plugin-image {
+    width: 100%;
+    min-height: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.plugin-more {
+    margin-top: 50px;
+}
+
+.plugin-more p {
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.get-link p {
+    font-size: 22.5px;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-right: 10px;
+}
+
+.get-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    padding: 15px 10px;
+    border-radius: 50px;
+    border: 2px solid #000;
+    transition: all 0.3s;
+
+
+    &:hover {
+        background-color: #b3adad;
+        transition: all 0.3s;
+    }
+}
+
+.aboba {
+    display: flex;
+    align-items: center;
+}
+.plugin-name {
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 65px;
+}
+
+.instruction-p {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 60px;
+    margin-top: 50px;
+}
+
+.download {
+    width: 70%;
+    min-height: 275px;
+    background-color: #d3d3d3;
+    margin-top: 60px;
+    border-radius: 10px;
+}
+
+.instruction-list {
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.catalogue-list {
+    margin-top: 75px;
+}
+
+.catalogue-plugin-image {
+    width: 100%;
+    height: 100%;
+}
+
+.acab {
+    height: 100%;
+}
+
+.card-plugin-catalogue {
+    min-height: 200px;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    transition: all 0.3s;
+    padding: 0;
+    margin-bottom: 50px;
+
+
+    &:hover {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        transition: all 0.3s;
+        transform: scale(100.1%);
+    }
+}
+
+.catalogue-plugin-name {
+    font-size: 27px;
+    margin-left: 10px;
+}
+
+.catalogue-plugin-info {
+    margin-left: 10px;
+}
+
+.download-catalogue {
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
+.download-btn {
+  background-color: #13aa52;
+  border: 1px solid #13aa52;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  outline: none;
+  outline: 0;
+  padding: 10px 25px;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  display: flex;
+  align-items: center;
+}
+
+.download-btn:hover {
+  box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+  transform: translateY(-2px);
+}
+
+@media (min-width: 768px) {
+  .download-btn {
+    padding: 10px 30px;
+  }
+}
+
+
+.catalogue-plugin-image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: content-box;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.card-plugin-catalogue img {
+    object-fit: cover;
+}
+
+.instruction-list li {
+    margin-bottom: 20px;
+}
+
+.site-navigation p > a {
+    color: #9b9b9b;
+    -webkit-text-fill-color: #9b9b9b;
+}
+
+.slide-picture {
+    min-height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.swiper-info span {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+
+.preview-download-plugins {
+    min-height: 300px;
+    width: 100%;
+    background-color: #ececec;
+    position: relative;
+    z-index: 100;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 35px 65px -17px inset, rgba(0, 0, 0, 0.3) 0px 23px 41px -23px inset;
+}
+
+.preview-title-span {
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+}
+
+.preview-info-span {
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+}
+
+.preview-title-line {
+    background-color: #000;
+    margin-top: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 2px;
+    width: 200px;
+}
+
+.download-title {
+    font-weight: bold;
+    font-size: 35px;
+    margin-left: 70px;
+    padding-top: 25px;
+    margin-bottom: 27px;
+}
+
+.download {
+    display: flex;
+    align-items: center;
+}
+
+.first-block {
+    margin-left: 70px;
+}
+
+.main-plugin-sect {
+    padding-bottom: 100px;
+}
+
+.download-links a {
+    color: #0D6EFC;
+    -webkit-text-fill-color: #0D6EFC;
+    margin-left: 70px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.download-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.swiper-info {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.swiper, .swiper-wrapper {
+    border-radius: 10px;
+}
+
+.dropdown-item:hover {
+    background-color: #5ab2fa;
+}
+  
+.header-drop:hover {
+    background-color: #5c77f2;
+    transition: 0.2s;
+}
+
+
+.btn-outline-dark {
+    border: 1px solid #fff;
+}
+
+.btn-outline-dark:hover svg[fill="#000000"] {
+    transition: 0.3s;
+}
+
+.navbar {
+    background-color: #1f1e1e;
+    display: block;
+    padding: 0;
+}
+
+
+
+.two-cont-btn span {
+    white-space: nowrap;
+}
+
+.header-drop {
+    min-width: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-right: 2px solid #c5b8b8;
+    text-align: center;
+    transition: 0.2s;
+}
+
+.header-drop a {
+    font-size: 17px!important;
+    color: #fff!important;
+}
+
+.dropdown-menu a {
+    color: #fff!important;
+}
+
+.page-wrapper {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 999;
+}
+
+.download-your-plugin {
+    min-height: 500px;
+}
+
+.instruction-for-download {
+    min-height: 500px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 35px 65px -17px inset, rgba(0, 0, 0, 0.3) 0px 23px 41px -23px inset; 
+}
+
+.catalog-btn {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.link-btn.go-to-catalog-btn {
+    background-image: none;
+    background-color: #e75858;
+
+    &:hover {
+        background-color: #ce4141;
+        transform: scale(102%);
+    }
+
+}
+
+.footer-nav {
+    width: 100%;
+    text-align: center;
+}
+
+.messenger-btn {
+    background: none;
+    border: none;
+}
+
+.footer-nav-items {
+    color: #fff;
+    font-weight: 700;
+}
+
+.footer-message span {
+    font-weight: 700;
+    color: #fff;
+}
+
+.download-cont {
+    margin-top: 100px;
+}
+
+.download-info span {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.link-btn {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 1em;
+    text-transform: uppercase;
+    color: white;
+    
+    border-radius: 100px;
+    border: none;
+    padding: 1em 3em;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    background-image: linear-gradient(to right, #5c7ff2 0%, #ffabf4 50%, #5c77f2 100%);
+    transition: 0.5s;
+}
+
+.link-btn:hover {
+    background-position: right center;
+}
+
+.title {
+    font-size: 70px!important;
+    font-weight: 700;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.dropdown-menu {
+    width: inherit;
+}
+
+.header-drop-cont {
+    border-top: 1px solid #000;
+    background-color: #1f1e1e;
+    margin-top: 10px;
+}
+
+.bord {
+    border-left: 2px solid #c5b8b8;
+}
+
+:active, :hover, :focus, input {
+    outline: none!important;
+    outline-offset: 0!important;
+}
+
+.body-main {
+    width: 100%;
+    height: 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-attachment: fixed;
+}
+
+.plugin-main-image {
+    width: 100%;
+    min-height: 350px;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.plugin-main-title {
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 100px;
+    color: #3fcefa;
+    text-align: center;
+}
+
+.plugin-main-info {
+    width: 100%;
+    min-height: 100px;
+    margin-top: 30px;
+    border-radius: 5px;
+    padding: 5px 15px;
+    display: flex;
+    justify-content: center;
+    border: 1px dashed #1f1e1e;
+}
+
+.span-item-btn {
+    margin-top: 2px;
+}
+
+#serum-1 {
+    color: #45c04f;
+    border-color: #45c04f;
+}
+
+#nexus-2 {
+    color: #50494a;
+}
+
+#valhalla-3 {
+    color: #3fcefa;
+    border-color: #3fcefa;
+}
+
+#fabfilter-4 {
+    color: #a700b6;
+    border-color: #a700b6;
+}
+
+#fabfilter-img {
+    border: 2px solid #a700b6;
+}
+
+@media screen and (max-width: 776px) {
+    .header-drop, .bord {
+        border: none;
+        border-bottom: 1px solid #c5b8b8;
+    }
+
+    .title {
+        text-align: center;
+        font-size: 50px!important;
+        display: flex;
+        justify-content: center;
+    }
+
+    .download-info {
+        display: flex;
+        justify-content: center;
+    }
+
+    .download-button {
+        display: flex;
+        justify-content: center;
+    }
+
+    .download-info span {
+        text-align: center;
+    }
+
+
+    .no-bord {
+        border: none;
+    }
+
+    .typed {
+        font-size: 18px;
+    }
+
+    .navbar-brand {
+        margin-right: 0;
+    }
+
+    .li-cont {
+        width: 245px;
+    }
+
+    .logo {
+        width: 70px;
+        height: 70px;
+    }
+
+}
+
